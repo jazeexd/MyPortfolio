@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color:  #ded1bd;
+      }
+
+      .achie {
+      font-size: 4rem;           
+      text-align: left;        
+      margin-top: 60px;
+      margin-bottom: 40px;
+      color: #582403;
+      padding-left: 50px;
+    }
+    
+    footer p{
+      color:#582403;
+    }
+    p{
+      color: #555;
+    }
+
+    h2 {
+      color: rgb(250, 20, 73);
+    }
+
+    li {
+      color: #555;
+    }
+
+    #achievements .container {
+      display: flex;
+      justify-content:space-around;   
+      gap: 100px;
+      flex-wrap: wrap;
+      text-align: left;       
+    }
+      header {
+      background-color: #ded1bd;
+      padding: 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      }
+      
+      
+      header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1200px;
+      padding: 0 20px;
+      }
+      
+      header .header-title {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      
+      }
+      
+      header h1 {
+      margin: 0;
+      font-size: 3rem;
+      line-height: 1;
+      color: #582403;
+      }
+      
+      header .logo {
+      width: 100px;
+      height: 100px;
+      vertical-align: middle;
+      transition: transform 0.3s ease;
+      }
+      
+      nav {
+      align-items: center;
+      padding: 10px 0;
+      }
+      
+      nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      gap: 50px;
+      }
+      
+      nav ul li {
+      display: inline;
+      }
+      
+      nav ul li a {
+      text-decoration: none;
+      color: rgb(250, 20, 73);
+      font-size: 1.5rem;
+      padding: 10px 15px;
+      transition: background-color 0.3s ease, font-size 0.3s ease, transform 0.3s ease;
+      }
+
+      nav ul li a:hover {
+      background-color: rgb(224, 172, 187);
+      font-size: 1.6em;
+      transform: scale(1.1);
+      color: rgb(250, 20, 73);
+      }
+      
+      footer{
+  text-align: center;
+  color:#582403;
+}
+@media (max-width: 768px) {
+  .achie {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+  #achievements .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  p, li {
+    font-size: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  header .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  header .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+      
+      </style>
+
+  </head>
+  <body>
+  
+      <!--Header-->
+      <header>
+        <div>
+        <h1>PORTFOLIO
+        <a href="index.html">
+            <a href="index.html">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczNC40WkPkFT99ZPXAqjji4i8D-4fRxjOadOnsSvpZo1CXSVdJSvG8Bncf_AygHxic77ZmIuLiYQG4GgIdFCCLpS9nB5FPLxNVurtr-6i4g2fDwROg=w2400" alt="Logo" class="logo">
+                </a>
+        </h1>
+    </div>
+    </header>
+
+        <!--Navigation-->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="achievements.html">Achievments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+      <h1 class="achie">Achievements</h1>
+    
+    <section id="achievements">
+      <div class="container">
+    <section id="education">
+      <h2>Education</h2>
+      <p>2024 - Present</p>
+      <p>Bachelor's in Information Technology</p>
+      <p>Our Lady of Fatima University</p>
+      <p>2022 - 2024</p>
+      <p>Science, Technology, Engineering, and Mathematics</p>
+      <p>Southeast Asia Institute of Trade and Technology</p>
+    </section>
+    
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>Time Management</p>
+      <p>Communication</p>
+      <p>Fast Learner</p>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>With Honors | SEAITT | June 2024</li>
+        <li>With Honors | HSNHS | June 2022</li>
+      </ul>
+    </section>
+</div>
+
+</section>
+
+  
+    <footer>
+        <footer>
+            <p>&copy; 2025 </a></p>
+          </footer>
+    </footer>
+    
+    
+</body>
+</html>

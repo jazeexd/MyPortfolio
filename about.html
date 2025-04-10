@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:  #ded1bd;
+}
+
+.container {
+  display: flex;
+  padding: 60px 40px;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  padding: 100px;
+  margin-top: 0;
+}
+
+.left h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #582403;
+}
+
+.left p {
+  font-size: 1.5em;
+  color: #555;
+}
+
+.right {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.right img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+      header {
+background-color: #ded1bd;
+padding: 20px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 0;
+left: 0;
+z-index: 100;
+}
+
+
+header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+max-width: 1200px;
+padding: 0 20px;
+}
+
+header .header-title {
+display: flex;
+align-items: center;
+gap: 30px;
+
+}
+
+header h1 {
+margin: 0;
+font-size: 3rem;
+line-height: 1;
+color: #582403;
+}
+
+header .logo {
+width: 100px;
+height: 100px;
+vertical-align: middle;
+transition: transform 0.3s ease;
+}
+
+nav {
+align-items: center;
+padding: 10px 0;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+justify-content: center;
+gap: 50px;
+}
+
+nav ul li {
+display: inline;
+}
+
+nav ul li a {
+text-decoration: none;
+color: rgb(250, 20, 73);
+font-size: 1.5rem;
+padding: 10px 15px;
+transition: background-color 0.3s ease, font-size 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+background-color: rgb(224, 172, 187);
+font-size: 1.6em;
+transform: scale(1.1);
+color: rgb(250, 20, 73);
+}
+
+footer{
+  text-align: center;
+  color:#582403;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .left, .right {
+    flex: 1 1 100%;
+    padding: 20px;
+  }
+
+  .left h1 {
+    font-size: 2.5em;
+  }
+
+  .left p {
+    font-size: 1.2em;
+  }
+
+  .right img {
+    max-width: 80%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+}
+</style>
+
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+      <div>
+      <h1>PORTFOLIO
+      <a href="index.html">
+          <a href="index.html">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNC40WkPkFT99ZPXAqjji4i8D-4fRxjOadOnsSvpZo1CXSVdJSvG8Bncf_AygHxic77ZmIuLiYQG4GgIdFCCLpS9nB5FPLxNVurtr-6i4g2fDwROg=w2400" alt="Logo" class="logo">
+              </a>
+      </h1>
+  </div>
+  </header>
+
+      <!--Navigation-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="achievements.html">Achievments</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+    <section id="home">
+        <div class="container">
+            <div class="left">
+              <h1>About me</h1>
+              <p>My name is Elexa Jaze Collado, a BSIT student at Our Lady of Fatima University. I was born on November 21, 2006, and ever since I chose this path, I’ve been passionate about everything related to my course. Technology fascinates me, and I’m always eager to learn more about the digital world. Outside of academics, I find joy in music and computer games—they help me relax, express myself, and fuel my creativity.
+                </p>
+            </div>
+            <div class="right">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPnLqgbeVsi_DC5oZFzeVfBcge6GnfPtAcNHe-Z4FpHzg1KLzBD2raCngluJUc7kTuM6dpbv9oNsYRqyFMaG8mkdLkuRWpbNlr50e06HmDlOxQs-Q=w2400" alt="My Image">
+            </div>
+          </div>
+    </section>
+
+    <footer>
+        <footer>
+            <p>&copy; 2025 </a></p>
+          </footer>
+    </footer>
+    
+    
+</body>
+</html>

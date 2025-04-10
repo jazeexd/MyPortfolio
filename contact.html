@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+    
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:  #ded1bd;
+}
+
+.container {
+  display: flex;
+  padding: 10px 40px;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+  
+  #contact {
+      display: flex;
+      justify-content: space-between;
+      padding: 60px 40px;
+      gap: 30px;
+      align-items: center;
+  }
+  
+  .left {
+      flex: 1;
+      padding-right: 500px;
+  }
+  
+  .left h2 {
+      font-size: 3rem;
+      color: #333;
+      margin-bottom: 20px;
+      color: #582403;
+  }
+  
+  .left .contact-info {
+      margin-bottom: 30px;
+      
+  }
+  
+  .left .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+  }
+  
+  .left .info-item i {
+      font-size: 1.5rem;
+      color: rgb(250, 20, 73);
+      margin-right: 10px;
+  }
+  
+  .left .info-item p {
+      font-size: 1.1rem;
+      color: #555;
+  }
+  
+  .left .social-media {
+      font-size: 3rem; /* Increase font size for larger icons */
+  }
+  
+  .left .social-media a {
+      margin-right: 20px; /* Increase the space between icons */
+      color: rgb(250, 20, 73);
+      text-decoration: none;
+  }
+  
+  .left .social-media a:hover {
+      color: #2500ff; /* Change color on hover */
+      transform: scale(1.2); /* Slightly enlarge icons on hover */
+  }
+  
+  .right {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+.right img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+header {
+background-color: #ded1bd;
+padding: 20px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 0;
+left: 0;
+z-index: 100;
+}
+
+
+header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+max-width: 1200px;
+padding: 0 20px;
+}
+
+header .header-title {
+display: flex;
+align-items: center;
+gap: 30px;
+
+}
+
+header h1 {
+margin: 0;
+font-size: 3rem;
+line-height: 1;
+color: #582403;
+}
+
+header .logo {
+width: 100px;
+height: 100px;
+vertical-align: middle;
+transition: transform 0.3s ease;
+}
+
+nav {
+align-items: center;
+padding: 10px 0;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+justify-content: center;
+gap: 50px;
+}
+
+nav ul li {
+display: inline;
+}
+
+nav ul li a {
+text-decoration: none;
+color: rgb(250, 20, 73);
+font-size: 1.5rem;
+padding: 10px 15px;
+transition: background-color 0.3s ease, font-size 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+background-color: rgb(224, 172, 187);
+font-size: 1.6em;
+transform: scale(1.1);
+color: rgb(250, 20, 73);
+}
+  
+  footer{
+  text-align: center;
+  color:#582403;
+}
+@media (max-width: 768px) {
+  #contact {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .left {
+    padding-right: 0;
+  }
+
+  .left h2 {
+    font-size: 2rem;
+  }
+
+  .left .info-item {
+    justify-content: center;
+  }
+
+  .left .contact-info p {
+    font-size: 1rem;
+  }
+
+  .left .social-media {
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
+
+  .right {
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .right img {
+    max-width: 80%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+      <div>
+      <h1>PORTFOLIO
+      <a href="index.html">
+          <a href="index.html">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNC40WkPkFT99ZPXAqjji4i8D-4fRxjOadOnsSvpZo1CXSVdJSvG8Bncf_AygHxic77ZmIuLiYQG4GgIdFCCLpS9nB5FPLxNVurtr-6i4g2fDwROg=w2400" alt="Logo" class="logo">
+              </a>
+      </h1>
+  </div>
+  </header>
+
+      <!--Navigation-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="achievements.html">Achievments</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+    <!--Content Section-->
+    <section id="contact">
+        <div class="container">
+            <!-- Left Section: Contact info with icons -->
+            <div class="left">
+                <h2>Contact me</h2>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Email: <a href="mailto:ebcollado2059qc@fatima.edu.ph">ebcollado2059qc@fatima.edu.ph</a></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>Phone: <a href="tel:0998-430-2383">0998-430-2383</a></p>
+                    </div>
+                </div>
+
+                <h3>Social Media</h3>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/elexajaze.collado.5" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/jazzleep/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/jazeexd" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                </div>
+            </div>
+
+            <!-- Right Section: Profile picture -->
+            <div class="right">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczPnLqgbeVsi_DC5oZFzeVfBcge6GnfPtAcNHe-Z4FpHzg1KLzBD2raCngluJUc7kTuM6dpbv9oNsYRqyFMaG8mkdLkuRWpbNlr50e06HmDlOxQs-Q=w2400" alt="My Image">
+              </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2025</p>
+    </footer>
+
+</body>
+</html>
